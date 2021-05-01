@@ -24,7 +24,7 @@ console.log('A little about me:', me);
     created above to set its value.
   - Console.log fullName
 */
-let fullName = me.firstName + ' ' + me.lastName
+let fullName = me.firstName + ' ' + me.lastName;
 
 console.log('My full name is', fullName);
 
@@ -54,6 +54,6 @@ console.log('My new shoe count:', me.shoeCount);
   - Cool huh? It works, even though it wasn't there before
   - Console.log your object
 */
-me.favoriteColor = 'blue';
+me.favoriteColor = 'blue'; // added favoriteColor property to me
 
 console.log(me);
